@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.destination-search-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .destination-search-con {
+    align-items: flex-start;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    margin-top: 96px;
+  }
+}
+
+.destination-search-input {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 10px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .destination-search-input {
+    padding-left: 20px;
+  }
+}
+
+.search-input {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  align-self: center;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .destination-list {
+    align-items: flex-start;
+  }
+}
